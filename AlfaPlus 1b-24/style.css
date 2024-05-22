@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body{
+    background-color: #15151A;
+    font-family: "Poetsen One", sans-serif;
+}
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+header .logotipo{
+    float: left;
+    
+}
+header .suporte{
+    float: right;
+}
+.logotipo img{
+    width: 65%;
+}
+.logotipo{
+    background-color: #f4f4f4;
+}
+.menuitem li{
+    display: inline-block;
+    padding: 20px;
+}
+.menu, .menuitem{
+    display: inline;
+}
+.header{
+    margin: 20px 0;
+    padding: 5px;
+
+}
+.menuitem li a{
+    color: #fc0000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 10px;
+    transition: 0.3s;
+}
+.menu{
+    margin: 0 50px;
+}
+
+.menuitem li a:hover{
+    color: #af0808;
+    border-bottom: 1px solid #af0808;
+    transition: 0.3s;
+}
+header{
+    border-bottom: 2px solid #fc0000;
+    z-index: 2;
+    position: relative;
+}
+.suporte a{
+    background-color: #c00909;
+    padding: 20px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+}
+.hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+.hover:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.slider{
+    background-image: url(./img/background.jpeg);
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1;
+    top: -150px;
+    position: relative;
+    opacity: 1.6;
+   
+}
+h1{
+    text-align: center;
+    top: 150px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 50px;
+    z-index: 3; 
+    font-weight: bold; 
+    border-radius: 1px; 
+    background-color: #c00909; 
+    text-shadow: 3px #15151A;
+    
+
+}
